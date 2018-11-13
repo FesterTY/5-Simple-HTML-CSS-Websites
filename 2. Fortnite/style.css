@@ -1,0 +1,103 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: "Burbank Big Condensed", Arial, Helvetica, sans-serif;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+}
+
+/****************************************
+**              Main Content
+******************************************/
+
+.main-content{
+    margin: 20px 10px;
+    padding: 20px;
+    height: 800px;
+    position: relative;
+}
+
+.main-content #title {
+    font-size: 80px;
+    color: rgb(216, 17, 216);
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.main-content #description {
+    width: 45%;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+
+.main-content iframe{
+    float: right;
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
+
+.main-content:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/************************************
+**          CHOOSE PLATFORM
+*************************************/
+
+.choose-platform{
+    padding: 50px;
+    background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.gamerant.com%2Fwp-content%2Fuploads%2Ffortnite-dusty-divot-cover.jpg.optimal.jpg&f=1);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.choose-platform h4{
+    font-size: 110px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.choose-platform ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+.choose-platform li{
+    display: inline-block;
+    padding: 0 40px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    vertical-align: top;
+
+    background-color: #ffffff;
+}
+
+.choose-platform li a{
+    text-decoration: none;
+    font-size: 50px;
+    position: relative;
+    top: 40%;
+    color: rgb(200,100,240);
+}
+
+.choose-platform li:hover{
+    background-color: rgb(200,100,240);
+}
+
+.choose-platform li:hover > a{
+    color: white;
+}
+
+.choose-platform li:nth-child(3) a{
+    top: 30%;
+}

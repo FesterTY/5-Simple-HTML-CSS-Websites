@@ -1,0 +1,219 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: "Yu Gothic";
+}
+
+
+/******************************
+**          NAVBAR
+*******************************/
+
+nav#navbar {
+    width: 100%;
+    height: 40px;
+    max-height: 50px;
+    padding: 20px;
+
+    background-color: #2c2c2c;
+}
+
+nav#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav#navbar ul li {
+    display: inline-block;
+}
+
+nav#navbar ul li a{
+    position: relative;
+    top: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 26px 20px;
+    text-transform: uppercase;
+}
+
+nav#navbar ul li a:hover{
+    background-color: #3c3c3c;  
+}
+
+/********************************
+**      DROPDOWN IN NAVBAR
+*********************************/
+
+#dropdown-author-content{
+    width: 100%;
+    background-color: #3c3c3c;
+}
+
+#dropdown-author-content ul{
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+}
+
+#dropdown-author-content li{
+    display: none;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+#dropdown-author-content li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#dropdown-author-content li a:hover{
+    font-size: 50px;
+    border: 1px solid #ffffff;
+    padding: 20px;
+}
+
+/**********************************
+**          BANNER
+***********************************/
+#banner{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.wallpaperbetter.com%2Fwallpaper%2F569%2F358%2F442%2Froad-trees-snow-walking-winter-natural-1080P-wallpaper.jpg&f=1);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    padding: 20px;
+}
+
+#banner img{
+    width: 50px;
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    filter: invert(1);
+}
+
+#banner h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 33px;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    margin: 20px;
+}
+
+#banner .search{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+}
+
+#banner .search #home-search-bar{
+    padding: 25px;
+    font-size: 25px;
+    border: 0;
+    border-radius: 10px;
+    width: 500px;
+}
+
+#banner .search #home-search-button{
+    font-family: Arial;
+    padding: 25px;
+    font-size: 26px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #2a2a2a;
+    background-image: linear-gradient(to top,#dadada, #ffffff);
+}
+
+#banner .search #home-search-button:hover{
+    background-image: linear-gradient(to bottom,#dadada, #ffffff);
+    color: #acacac;
+}
+
+/****************************
+**      FEATURED QUOTES
+****************************/
+
+.quote-box{
+    margin: 20px;
+    padding: 20px;
+}
+
+.quote-box h2{
+    width: 250px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    border-bottom: 1px solid #000000;
+}
+
+.quote-box ul{
+    text-align: center;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+.quote-box li{
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    height: 250px;
+    padding: 0 20px;
+    margin: 5px 3px;
+
+    background-repeat: no-repeat;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.quote-box li span {
+    position: relative;
+    top: 70px;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+}
+
+.quote-box li:nth-child(1){
+    background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fd37wxxhohlp07s.cloudfront.net%2Fs3_images%2F737471%2F7f71c6c0-331e-4f20-b184-a5dc8cd1ef13_inline.jpg%3F1336856549&f=1);
+}
+
+.quote-box li:nth-child(2){
+    background-image: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Ft13.deviantart.net%2FOgazJTsICdYiQezq9cMzy6KJcw4%3D%2Ffit-in%2F700x350%2Ffilters%3Afixed_height(100%2C100)%3Aorigin()%2Fpre14%2Fd578%2Fth%2Fpre%2Fi%2F2012%2F333%2F0%2Fa%2Fthe_discovery___early_game_concept_art_by_sopeh-d5mkxmy.jpg&f=1");
+}
+
+.quote-box li:nth-child(3){
+    background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ffrybreadwhitebread.files.wordpress.com%2F2012%2F08%2Fdayz2.jpg&f=1);
+}
+
+.quote-box li:nth-child(4){
+    background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fi.kinja-img.com%2Fgawker-media%2Fimage%2Fupload%2Fs--Zmgdcpsj--%2Fc_fill%2Cfl_progressive%2Cg_north%2Ch_264%2Cq_80%2Cw_470%2F1359951074322752581.jpg&f=1);
+}
+
+.quote-box li:nth-child(5){
+    background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.allwallpaper.in%2Fwallpapers%2F480x272%2F2524%2Fconcept-art-480x272-wallpaper.jpg&f=1);
+}
+
+.quote-box li:nth-child(6){
+    background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.qSsi_2i1O2t6cZlZYAhbSgHaEj%26pid%3D15.1&f=1);
+}
+
+.quote-box li:nth-child(7) {
+    background-image: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fyv51L62.jpg&f=1);
+    background-size: 600px;
+}
+
+.quote-box li:nth-child(8){
+    background-image: url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2Ff1D8HHC.jpg&f=1);
+    background-size: 600px;
+}

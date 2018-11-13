@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="keywords" content="quote, design, motivation, inspiration, active, dream, hope, love, sad, break" />
+  <meta name="description" content="Quotea.net is a huge collection of literary quotations and movie quotes from endless number of famous authors and featured movies,
+    collaboratively assembled by contributing editors." />
+
+  <title>Popular Quotes | Quotea.net </title>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+
+<body>
+  <nav id="navbar">
+    <ul class="navbar-ul">
+      <li><a href="#">Home</a></li>
+      <li><a class="dropdown-author" href="#" onmouseover="dropdownAppear('inline-block', '10px','#3c3c3c')" onmouseout="dropdownAppear('none', '0','transparent')">Authors</a></li>
+      <li><a href="#">Topics</a>
+      </li>
+      <li><a href="#">Quote of the day</a></li>
+      <li><a href="#">Pictures</a></li>
+    </ul>
+  </nav>
+
+  <div id="dropdown-author-content" onmouseover="dropdownAppear('inline-block', '10px','#3c3c3c')" onmouseout="dropdownAppear('none', '0','transparent')">
+    <ul>
+      <li class="author-letter"><a href="#">A</a></li>
+      <li class="author-letter"><a href="#">B</a></li>
+      <li class="author-letter"><a href="#">C</a></li>
+      <li class="author-letter"><a href="#">D</a></li>
+      <li class="author-letter"><a href="#">E</a></li>
+      <li class="author-letter"><a href="#">F</a></li>
+      <li class="author-letter"><a href="#">G</a></li>
+      <li class="author-letter"><a href="#">H</a></li>
+      <li class="author-letter"><a href="#">I</a></li>
+      <li class="author-letter"><a href="#">J</a></li>
+      <li class="author-letter"><a href="#">K</a></li>
+      <li class="author-letter"><a href="#">L</a></li>
+      <li class="author-letter"><a href="#">M</a></li>
+      <li class="author-letter"><a href="#">N</a></li>
+      <li class="author-letter"><a href="#">O</a></li>
+      <li class="author-letter"><a href="#">P</a></li>
+      <li class="author-letter"><a href="#">Q</a></li>
+      <li class="author-letter"><a href="#">R</a></li>
+      <li class="author-letter"><a href="#">S</a></li>
+      <li class="author-letter"><a href="#">T</a></li>
+      <li class="author-letter"><a href="#">U</a></li>
+      <li class="author-letter"><a href="#">V</a></li>
+      <li class="author-letter"><a href="#">W</a></li>
+      <li class="author-letter"><a href="#">X</a></li>
+      <li class="author-letter"><a href="#">Y</a></li>
+      <li class="author-letter"><a href="#">Z</a></li>
+    </ul>
+  </div>
+  <div id="banner">
+    <img src="logo.png" />
+    <h2>Quotea.net</h2>
+    <div class="search">
+      <input id="home-search-bar" type="text" name="search" placeholder="Find your favorite quotes" />
+      <a id="home-search-button" href="#">Go</a>
+    </div>
+  </div>
+
+  <div class="quote-box">
+    <h2>Featured Quotes</h2>
+    <ul>
+      <li><span>"You are who you are, and no one can change that. So be yourself, because no one can do it better."</span></li>
+      <li><span>"Understand that legal and illegal are political, and often arbitrary, categorizations; use and abuse
+          are medical, or clinical, distinctions."</span></li>
+      <li><span>"Not that the story need be long, but it will take a long while to make it short."</span></li>
+      <li><span>"To be what we are, and to become what we are capable of becoming, is the only end of life."</span></li>
+      <li><span>"You don't love a woman because she is beautiful, but she is beautiful because you love her."</span></li>
+      <li><span>"Every strike brings me closer to the next home run."</span></li>
+      <li><span>"Life is about making an impact, not making an income."</span></li>
+      <li><span>"The best time to plant a tree was 20 years ago. The second best time is now."</span></li>
+    </ul>
+  </div>
+
+  <script>
+    function dropdownAppear(display, padding, backgroundColor) {
+      var authorLetter = document.getElementsByClassName('author-letter');
+
+      for (i = 0; i < authorLetter.length; i++) {
+        authorLetter[i].style.display = display;
+      }
+      document.getElementById('dropdown-author-content').style.padding = padding;
+
+      var authorDropdown = document.getElementsByClassName('dropdown-author');
+      for (i = 0; i < authorDropdown.length; i++) {
+        authorDropdown[i].style.backgroundColor = backgroundColor;
+      }
+    }
+  </script>
+</body>
+
+</html>
